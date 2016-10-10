@@ -3,7 +3,7 @@ var mongodb = require('mongodb')
 var app = express();
 
 var mongodbURL = 
-'mongodb://dbuser:1234@ds053156.mlab.com:53156/marcusbear0615';
+'mongodb://marcusbear0615:asd757959@ds053156.mlab.com:53156/marcusbear0615';
 
 var myDB
 mongodb.MongoClient.connect(mongodbURL, function(err, db) {
